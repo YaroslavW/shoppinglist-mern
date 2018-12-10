@@ -1,0 +1,32 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "Shopping list built with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/YaroslavW/shoppinglist-mern.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongoDB",
+    "node"
+  ],
+  "author": "Yaroslav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
