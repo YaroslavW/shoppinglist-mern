@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const items = require('./routes/api/items');
 
-const app = express()
+const app = express();
 
 // BodyParser MiddleWare
 app.use(bodyParser.json());
@@ -16,8 +16,8 @@ const db = require('./config/keys').mongoURI;
 // Connect MongoDB
 mongoose
     .connect(db)
-        .then(() => console.log("MongoDB Connected"))
-        .catch(err => console.log(err));
+    .then(() => console.log("MongoDB Connected"))
+    .catch(err => console.log(err));
 
 
 // Use Rotes
